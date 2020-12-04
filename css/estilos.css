@@ -1,0 +1,55 @@
+body header {
+  margin: 20px;
+  border-bottom: solid rgba(128, 128, 128, 0.5) 1px; }
+  body header .title h1 span {
+    font-weight: lighter; }
+  body header nav .c-nav {
+    display: flex;
+    float: right; }
+    body header nav .c-nav .page {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #dc3545;
+      margin-right: 20px; }
+body main .area-canvas .canvas {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  border: solid rgba(128, 128, 128, 0.5) 2px;
+  margin: 20px auto;
+  overflow: hidden;
+  text-align: center;
+  color: white; }
+  body main .area-canvas .canvas .obj {
+    position: absolute;
+    width: 25px;
+    height: 25px; }
+
+.Obj {
+  position: absolute; }
+
+.shell, .proton, .electron, .neutron {
+  border-radius: 50%;
+  border: solid white 2px; }
+
+.shell {
+  border: solid gray;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1; }
+
+.proton {
+  background-color: indigo; }
+
+.electron {
+  background-color: tomato;
+  z-index: 5; }
+
+.neutron {
+  background-color: orange; }
+
+/*# sourceMappingURL=estilos.css.map */
